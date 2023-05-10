@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Notetifyy">
         <activity
+            android:name=".signUp"
+            android:exported="false" />
+        <activity
+            android:name=".homePage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
