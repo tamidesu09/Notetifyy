@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 if(username.equals("beary") && password.equals("gud"))
                 {
                     Toast.makeText(MainActivity.this, "Welcome to Notetify", Toast.LENGTH_SHORT).show();
-                    Intent intent= new Intent(getApplicationContext(),homePage.class);
+                    Intent intent= new Intent(getApplicationContext(),MainActivity1.class);
                     startActivity(intent);
                 }else
                 {

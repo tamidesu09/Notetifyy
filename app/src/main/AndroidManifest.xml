@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Notetifyy">
         <activity
+            android:name=".MainActivity1"
+            android:exported="false"
+            android:label="@string/title_activity_main1" />
+        <activity
             android:name=".signUp"
             android:exported="false" />
         <activity
